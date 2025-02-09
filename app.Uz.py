@@ -67,6 +67,6 @@ with col4:
         add_to_input("/")
 
 # 現在の入力と結果を表示
-st.text_area("入力中の式", value=st.session_state.current_input, height=50)
+st.text_area("入力中の式", value=st.session_state.current_input, height=70)
 if st.session_state.result is not None:
     st.write(f"計算結果: {st.session_state.result}")
